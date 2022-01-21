@@ -1,15 +1,26 @@
 h1{
     color:white;
     text-align: center;
+    font-size: 48px;
 }
 p{
     color: blue;
     font-size: 24px;
 }
 body{
-    background-color: orange;
+    background-color: bisque;
     font-family: Perpetua, serif;
+    color: darkorange;
 }
+#favorite-movie-title{
+    font-style: italic;
+    color: coral;
+}
+#favorite-music-name{
+    font-weight: bold;
+    color: fuchsia;
+}
+
 a{
     background-color: lightgreen;
     text-decoration: none;
@@ -17,36 +28,64 @@ a{
 ul {
     background-color: lightgreen;
 }
-
-
-
+/* giving style to most favorite food*/
+#most-favorite-food{
+    text-decoration: underline;
+    background-color: cornflowerblue;
+    color: red;
+}
+.favorite-image{
+    border-radius: 50%;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.second-favorite{
+    background-color: darkcyan;
+}
 li{
     font-style: italic;
     margin-left: 50px;
+    list-style-type: square; /*  square symbol instead of the usual circle for list items*/
 }
 #page-title{
     text-shadow: 4px 4px magenta;
     margin: 40px;
+    color: cornflowerblue;
 }
-#favorite-music-name{
-    background-color: fuchsia;
-}
+
 .favorite-section{
     border: 5px black solid;
-    margin: 5px;
+    margin: 10px;
     padding: 10px;
+    border-radius: 20px;
+}
+.section-header{
+    font-size: 30px;
+    text-align: center;
+    font-family: Impact;
+    color: cornflowerblue;
 }
 img{
     width: 300px;
     height: 200px;
+    border-radius: 20px;
+    border: 2px black solid;
 }
 table, tr, th, td{
     border: 1px solid black;
     border-collapse: collapse;
+    text-align: center;
 }
 th{
     background: darkslategray;
     width: 200px;
+    color: red;
+}
+td{
+    color: palevioletred;
 }
 tr:nth-child(even){
     background: aquamarine;
